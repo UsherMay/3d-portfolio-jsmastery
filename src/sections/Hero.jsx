@@ -1,6 +1,7 @@
 import React from 'react'
 import { words } from '../constants';
 import Button from '../components/Button';
+import HeroExperience from '../components/HeroModels/HeroExperience';
 
 // const words = [
 //     { text: 'Ideas', imgPath: "/images/ideas.svg" },
@@ -45,6 +46,12 @@ function Hero(){
 
                 </div>
             </header>
+            
+            <figure className='hero-3d-layout'>
+                <HeroExperience/>
+
+            </figure>
+
 
         </div>
         </section>
