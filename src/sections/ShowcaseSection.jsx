@@ -3,6 +3,8 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useGSAP } from '@gsap/react';
 
+gsap.registerPlugin(ScrollTrigger);
+
 function ShowcaseSection(){
     const sectionRef = useRef(null);
     const project1Ref = useRef(null);

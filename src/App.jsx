@@ -1,4 +1,5 @@
 import NavBar from "./components/NavBar";
+import ExperienceSection from "./sections/ExperienceSection";
 import FeatureCards from "./sections/FeatureCards";
 import Hero from "./sections/Hero";
 import LogoSection from "./sections/LogoSection";
@@ -12,6 +13,7 @@ function App (){
       <ShowcaseSection/>
       <LogoSection/>
       <FeatureCards/>
+      <ExperienceSection />
     </>
     // <main>
     //   <div>
