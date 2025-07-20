@@ -4,6 +4,7 @@ import FeatureCards from "./sections/FeatureCards";
 import Hero from "./sections/Hero";
 import LogoSection from "./sections/LogoSection";
 import ShowcaseSection from "./sections/ShowcaseSection";
+import TechStack from "./sections/TechStack";
 
 function App (){
   return (
@@ -13,7 +14,8 @@ function App (){
       <ShowcaseSection/>
       <LogoSection/>
       <FeatureCards/>
-      <ExperienceSection />
+      <ExperienceSection/>
+      <TechStack/>
     </>
     // <main>
     //   <div>
