@@ -18,7 +18,7 @@ function NavBar(){
     return (
         <header className={`navbar ${scrolled ? 'scrolled' : 'not-scrolled'}`}>
         <div className='inner'>
-            <a className='logo' href='#hero'>Adrian | JSM</a>
+            <a className='logo' href='#hero'>Title</a>
 
             <nav className='desktop'>
                 <ul>

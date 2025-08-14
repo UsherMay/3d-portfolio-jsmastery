@@ -20,7 +20,7 @@ function Footer () {
 
                 <div className='flex flex-col justify-center'>
                     <p className='text-center md:text-end'>
-                        &copy; {new Date().getFullYear()} Adrian | JS Mastery. All rights reserved.
+                        &copy; {new Date().getFullYear()}. All rights reserved.
                     </p>    
                 </div>
             </div>
